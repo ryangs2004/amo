@@ -1,0 +1,62 @@
+body{
+background: linear-gradient(to bottom,  #8c26bf 1%,#c077dd 100%); 
+}
+
+
+
+/* Estilo dos cards */
+.card {
+  background:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 200px;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 20px;
+    float: left; /* Alinha os cards horizontalmente */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  /* Limpar as flutuações após os cards */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.btn{
+
+font-family: Koulen;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background: linear-gradient(90deg, #000000 0%, #932299 100%);
+padding: 10px 30px;
+border: none;
+box-shadow: none;
+border-radius: 50px;
+transition : 443ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+
+transition : 443ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(90deg, #000000 0%, #932299 100%);
+color: #0066cc;
+border: solid 1px #0066cc;
+}
+
